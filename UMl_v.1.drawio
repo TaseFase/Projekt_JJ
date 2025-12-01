@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.2.2">
+  <diagram name="Seite-1" id="0BjXvFHvwkTwWP719kTI">
+    <mxGraphModel dx="1213" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lGr5-WrC-GCtzt5KJY90-44" edge="1" parent="1" source="lGr5-WrC-GCtzt5KJY90-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="lGr5-WrC-GCtzt5KJY90-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lGr5-WrC-GCtzt5KJY90-48" edge="1" parent="1" source="lGr5-WrC-GCtzt5KJY90-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="lGr5-WrC-GCtzt5KJY90-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lGr5-WrC-GCtzt5KJY90-14" collapsed="1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Waffe&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="1290" y="50" as="geometry">
+            <mxRectangle height="430" width="291" x="1190" y="-420" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lGr5-WrC-GCtzt5KJY90-15" parent="lGr5-WrC-GCtzt5KJY90-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="name: String&lt;br&gt;schaden: int&lt;br&gt;haltbarkeit: int&lt;br&gt;reichweite: int&lt;br&gt;&lt;div&gt;munition: Munition&lt;/div&gt;&lt;div&gt;rueckstoss: float&lt;/div&gt;&lt;div&gt;waffentyp: String&lt;/div&gt;aussehen: Aussehen" vertex="1">
+          <mxGeometry height="134" width="291" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lGr5-WrC-GCtzt5KJY90-16" parent="lGr5-WrC-GCtzt5KJY90-14" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="291" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lGr5-WrC-GCtzt5KJY90-17" parent="lGr5-WrC-GCtzt5KJY90-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="schießen(): void&lt;br&gt;nachladen(int menge): void&lt;br&gt;reparieren(int wert): void&lt;br&gt;werfen(): void&lt;br&gt;addonHinzufuegen(Addon addon): void&lt;br&gt;addonEntfernen(Addon addon): void&lt;br&gt;rueckstossAnwenden(): void" vertex="1">
+          <mxGeometry height="262" width="291" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="lGr5-WrC-GCtzt5KJY90-18" collapsed="1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Aussehen" vertex="1">
+          <mxGeometry height="30" width="90" x="1080" y="182" as="geometry">
+            <mxRectangle height="90" width="140" x="1080" y="182" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lGr5-WrC-GCtzt5KJY90-19" parent="lGr5-WrC-GCtzt5KJY90-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="modell: String&lt;br&gt;aussehen: FBX" vertex="1">
+          <mxGeometry height="64" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lGr5-WrC-GCtzt5KJY90-29" edge="1" parent="1" source="lGr5-WrC-GCtzt5KJY90-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="lGr5-WrC-GCtzt5KJY90-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lGr5-WrC-GCtzt5KJY90-23" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Erweiterung" vertex="1">
+          <mxGeometry height="190" width="140" x="1490" y="130" as="geometry">
+            <mxRectangle height="30" width="100" x="1480" y="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lGr5-WrC-GCtzt5KJY90-24" parent="lGr5-WrC-GCtzt5KJY90-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="name: String&lt;br&gt;&lt;br&gt;typ: String&lt;br&gt;&lt;br&gt;bonusSchaden: int&lt;br&gt;&lt;br&gt;bonusReichweite: int&lt;br&gt;&lt;br&gt;rueckstossReduktion: float" vertex="1">
+          <mxGeometry height="164" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lGr5-WrC-GCtzt5KJY90-1" collapsed="1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Spieler" vertex="1">
+          <mxGeometry height="30" width="80" x="20" y="30" as="geometry">
+            <mxRectangle height="510" width="230" x="20" y="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lGr5-WrC-GCtzt5KJY90-2" parent="lGr5-WrC-GCtzt5KJY90-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ name: String&lt;br&gt;+ alter: int&lt;br&gt;&lt;div&gt;+ leben: int&lt;/div&gt;&lt;div&gt;+ ausdauer: int&lt;/div&gt;&lt;div&gt;+ hunger: int&lt;/div&gt;&lt;div&gt;+ durst: int&lt;/div&gt;&lt;div&gt;+ temperatur: int&lt;/div&gt;&lt;div&gt;+ istAmRennen: boolean&lt;/div&gt;&lt;div&gt;+ istAmDucken: boolean&lt;/div&gt;&lt;div&gt;+ istAmKriechen: boolean&lt;/div&gt;&lt;div&gt;+ istInDerLuft: boolean&lt;/div&gt;+ inventar: Inventar&lt;br&gt;&lt;div&gt;+ position: Position&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="234" width="230" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lGr5-WrC-GCtzt5KJY90-3" parent="lGr5-WrC-GCtzt5KJY90-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="230" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="lGr5-WrC-GCtzt5KJY90-4" parent="lGr5-WrC-GCtzt5KJY90-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+laufen(): void&lt;br&gt;+rennen(): void&lt;br&gt;+ducken(): void&lt;br&gt;+kriechen(): void&lt;br&gt;+springen(): void&lt;br&gt;+essen(int menge): void&lt;br&gt;+trinken(int menge): void&lt;br&gt;+schadenNehmen(int wert): void&lt;br&gt;+heilen(int wert): void&lt;br&gt;+ausdauerErholen(int wert): void&lt;br&gt;+bewegen(Position ziel): void" vertex="1">
+          <mxGeometry height="242" width="230" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="lGr5-WrC-GCtzt5KJY90-39" edge="1" parent="1" source="lGr5-WrC-GCtzt5KJY90-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.507;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;" target="lGr5-WrC-GCtzt5KJY90-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lGr5-WrC-GCtzt5KJY90-40" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Munition" vertex="1">
+          <mxGeometry height="52" width="140" x="1255" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lGr5-WrC-GCtzt5KJY90-41" parent="lGr5-WrC-GCtzt5KJY90-40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="140" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lGr5-WrC-GCtzt5KJY90-47" edge="1" parent="1" source="lGr5-WrC-GCtzt5KJY90-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="lGr5-WrC-GCtzt5KJY90-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
